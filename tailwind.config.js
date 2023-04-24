@@ -15,6 +15,15 @@ export default {
       fontFamily: {
         dreamAvenue: "Dream Avenue",
         poppins: "Poppins"
+      },
+      fontSize: {
+        paragraph: "16px",
+        h6: "20px",
+        h5: "25px",
+        h4: "31px",
+        h3: "39px",
+        h2: "49px",
+        h1: "61px"
       }
     },
   },

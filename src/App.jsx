@@ -1,14 +1,12 @@
 import { useState } from 'react'
 import MainLayout from './layout/MainLayout'
+import Home from './pages/home'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <MainLayout>
-        <div>App</div>
-      </MainLayout>
+        <Home/>
     </div>
   )
 }
